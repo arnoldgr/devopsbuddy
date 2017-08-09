@@ -6,7 +6,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class DevopsbuddyApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(DevopsbuddyApplication.class, args);
-	}
+    public static void main(String[] args) {
+
+        SpringApplication.run(DevopsbuddyApplication.class, args);
+
+        String name = "X";
+
+        for (int x = 0; x < 56; x++) {
+            System.out.println(name);
+        }
+
+    }
 }
